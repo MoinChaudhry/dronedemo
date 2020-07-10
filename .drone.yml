@@ -1,0 +1,8 @@
+kind: pipeline
+type: docker
+name: dronedemo
+steps:
+    - name: demopipeline
+      commands: 
+        - javac dronedemo.java
+        - java dronedemo
