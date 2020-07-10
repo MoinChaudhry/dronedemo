@@ -1,11 +1,7 @@
-public class demo {
+class demo1 {
     public static void main(String[] args) {
-        System.out.println("HELLO WORLD23sdag");
-        System.out.println("HELLO gadsgdWgORLD");
-        System.out.println("HELLO WgadORfLD");
-        System.out.println("HELLO ggWORLhcagagafgaD");
-        System.out.println("HELLO WgadgadORLD");
-
-
-    }
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Hello World");
+		}
+	}
 }
