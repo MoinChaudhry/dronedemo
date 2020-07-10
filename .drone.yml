@@ -5,5 +5,4 @@ steps:
     - name: demopipeline
       image: openjdk:8
       commands: 
-        - cd C:\Users\Moin Hassan Chaudhry\Desktop\demo1
         - java demo
