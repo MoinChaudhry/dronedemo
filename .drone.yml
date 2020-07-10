@@ -3,7 +3,7 @@ type: docker
 name: dronedemo
 steps:
     - name: demopipeline
-      image: openjdk:latest
+      image: openjdk:8
       commands: 
         - javac dronedemo.java
         - java dronedemo
