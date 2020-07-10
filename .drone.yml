@@ -5,4 +5,5 @@ steps:
     - name: demopipeline
       image: openjdk:8
       commands: 
+        - javac demo.java
         - java demo
