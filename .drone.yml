@@ -5,5 +5,5 @@ steps:
     - name: demopipeline
       image: openjdk:8
       commands: 
-        - javac dronedemo.java
-        - java dronedemo
+        - javac demo.java
+        - java demo
